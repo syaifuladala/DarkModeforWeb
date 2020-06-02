@@ -1,0 +1,52 @@
+body, .light-mode {
+    background-color: white;
+    color: black;
+    --primary-color: white;
+    --jumbotron-color: #fcf8e8;
+    --content-color: black;
+    
+}
+  
+.dark-mode {
+    background-color: #323232;
+    color: white;
+    --primary-color: black;
+    --jumbotron-color : black;
+    --content-color: white;
+    --modal-color: #323232;
+}
+
+.jumbotron{
+    background-color:  var(--jumbotron-color)!important;
+    padding: 11% !important;
+}
+
+.btn-link{
+    color: var(--content-color)!important;
+    border: 1px solid var(--content-color) !important;
+    margin-top: 20px;
+}
+
+.btn-detail, .btn-apply{
+    color: var(--content-color)!important;
+    border: 1px solid var(--content-color) !important;
+}
+
+.col-sm-4{
+    padding: 20px !important;
+}
+
+.modal-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+}
+
+.modal-body, .modal-header, .modal-footer{
+    background-color: var(--modal-color);
+}
+
+.close{
+    color: var(--content-color)!important;
+}
